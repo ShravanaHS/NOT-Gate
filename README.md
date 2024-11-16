@@ -68,7 +68,12 @@ TRUTH TABLE
 <br>
 ##  DC Analysis of inverter
 
+<div align="center">
+    <img src="images/DC analysis.png" alt="inverter schematic" width="">
+  
+</div>
 
+<br> <br> 
 A voltage transfer characteristics paints a plot that shows the behavior of a device when it's input is changed(full swing). It shows what happens to the output as input changes. In our case, for an inverter we can see a plot that is like a square wave(non ideal), that changes it's nature around 0.9(ideally) volts of input which is known as the ***Threshold voltage(Vm)***. Deviating so much from this threshold voltage might cause Noise margin issue. One can say that there are like 3 regions in the VTC curve, the portion where output is high, the place of transistion and the one where the output goes low. But actually there are five regions of operation and they are based on the working of inverter constituents, that is the NMOS and the PMOS transistors with respect to the change in the input potential. which can be observed from the below picture.
 
 
