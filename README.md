@@ -27,12 +27,14 @@ TRUTH TABLE
 |:--:|:--:|
 |0|1|
 |1|0|
+  
+</div>
+<br> <br>
 
-<br> <br> 
-**Symbol of not gate**
+## symbol of NOT gate
 
 <div align="center">
-    <img src="images/symbolnot.png" alt="NOT Gate Symbol" width="500">
+    <img src="images/symbol.png" alt="NOT Gate Symbol" width="">
   
 </div>
 
