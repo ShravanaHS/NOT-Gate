@@ -41,7 +41,7 @@ TRUTH TABLE
 inverter can be implemented with the help of 1PMOS and 1NMOS connected as shown in circuit diagram and power supply is given as shown +VDD is given to drain of PMOS and GND is given to source of NMOS Input and output are connected as shown 
 <div align="center">
     <img src="images/schematicnot.png" alt="inverter schematic" width="">
-  
+  schematic diagram
 </div>
 
 <br> <br> 
@@ -56,6 +56,26 @@ when the given input signal is 0(LOW) the NMOS acts as a open circuit(switch) an
 </div>
 
 <br> <br> 
+
+##  DC Analysis of inverter
+
+<div align="center">
+    <img src="images/DC analysis.png" alt="inverter schematic" width="">
+  
+ VTC Curve
+</div>
+
+<br> <br> 
+A voltage transfer characteristics paints a plot that shows the behavior of a device when it's input is changed(full swing). It shows what happens to the output as input changes. In our case, for an inverter we can see a plot that is like a square wave(non ideal), that changes it's nature around 0.9(ideally) volts of input which is known as the ***Threshold voltage(Vm)***. Deviating so much from this threshold voltage might cause Noise margin issue. One can say that there are like 3 regions in the VTC curve, the portion where output is high, the place of transistion and the one where the output goes low. But actually there are five regions of operation and they are based on the working of inverter constituents, that is the NMOS and the PMOS transistors with respect to the change in the input potential. which can be observed from the below picture.
+
+
+
+**DC analysis would be used to plot a Voltage Transfer Characteristics (VTC) curve for the circuit**. It will sweep the value of Vin from high to low to determine the working of circuit with respect to different voltage levels in the input. The following plot is observed when simulated :
+
+
+
+
+
 ## XOR Parameters 
 
 |Parameter | Description |	Min |	Average |	Max |	Unit |	Condition |
@@ -72,27 +92,7 @@ when the given input signal is 0(LOW) the NMOS acts as a open circuit(switch) an
 
 <br> <br>
 <br>
-##  DC Analysis of inverter
 
-<div align="center">
-    <img src="images/DC analysis.png" alt="inverter schematic" width="">
-  
-</div>
-
-<br> <br> 
-A voltage transfer characteristics paints a plot that shows the behavior of a device when it's input is changed(full swing). It shows what happens to the output as input changes. In our case, for an inverter we can see a plot that is like a square wave(non ideal), that changes it's nature around 0.9(ideally) volts of input which is known as the ***Threshold voltage(Vm)***. Deviating so much from this threshold voltage might cause Noise margin issue. One can say that there are like 3 regions in the VTC curve, the portion where output is high, the place of transistion and the one where the output goes low. But actually there are five regions of operation and they are based on the working of inverter constituents, that is the NMOS and the PMOS transistors with respect to the change in the input potential. which can be observed from the below picture.
-
-
-
-**DC analysis would be used to plot a Voltage Transfer Characteristics (VTC) curve for the circuit**. It will sweep the value of Vin from high to low to determine the working of circuit with respect to different voltage levels in the input. The following plot is observed when simulated :
-
-
-##  VTC Curve
-
-<div align="center">
-    <img src="images/DC analysis.png" alt="inverter schematic" width="">
-  
-</div>
 
 
 
