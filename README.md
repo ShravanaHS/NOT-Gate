@@ -40,7 +40,7 @@ TRUTH TABLE
 ## Circuit Diagram 
 inverter can be implemented with the help of 1PMOS and 1NMOS connected as shown in circuit diagram and power supply is given as shown +VDD is given to drain of PMOS and GND is given to source of NMOS Input and output are connected as shown 
 <div align="center">
-    <img src="images/schematic.png" alt="inverter schematic" width="">
+    <img src="images/schematicnot.png" alt="inverter schematic" width="">
   
 </div>
 
@@ -49,6 +49,13 @@ inverter can be implemented with the help of 1PMOS and 1NMOS connected as shown 
 ## working
 
 when the given input signal is 0(LOW) the NMOS acts as a open circuit(switch) and PMOS acts as a closed circuit(switch) producing output 1(HIGH). simillerly during input signal is 1(HIGH) the NMOS acts as a closed circuit(switch) and PMOS acts as a open circuit(switch) producing output 0(LOW)
+
+<div align="center">
+    <img src="images/wave.png" alt="inverter schematic" width="">
+  input output waveform
+</div>
+
+<br> <br> 
 ## XOR Parameters 
 
 |Parameter | Description |	Min |	Average |	Max |	Unit |	Condition |
@@ -80,7 +87,12 @@ A voltage transfer characteristics paints a plot that shows the behavior of a de
 **DC analysis would be used to plot a Voltage Transfer Characteristics (VTC) curve for the circuit**. It will sweep the value of Vin from high to low to determine the working of circuit with respect to different voltage levels in the input. The following plot is observed when simulated :
 
 
+##  VTC Curve
 
+<div align="center">
+    <img src="images/DC analysis.png" alt="inverter schematic" width="">
+  
+</div>
 
 
 
