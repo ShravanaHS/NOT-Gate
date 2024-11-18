@@ -76,7 +76,7 @@ A voltage transfer characteristics paints a plot that shows the behavior of a de
 
 
 
-## XOR Parameters 
+## NOT Gate Parameters 
 
 |Parameter | Description |	Min |	Average |	Max |	Unit |	Condition |
 |:--------:|:------------:|:----:|:---:|:-----:|:----:|:---------:|
