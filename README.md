@@ -1,13 +1,8 @@
 # NOT Gate
 
 In this repository, I am designing and analyzing a CMOS Inverter / NOT Gate using the SkyWater PDK 130nm Technology. 
-
-The design is created using 
-<a href="https://xschem.sourceforge.io/stefan/index.html" target="_blank">xschem</a>, 
-and its parameters(plots) are obtained through pre-layout simulations using 
-<a href="https://ngspice.sourceforge.io/" target="_blank">ngspice</a>.
-
-For the layout design, I am utilizing the 
+The design is created using <a href="https://xschem.sourceforge.io/stefan/index.html" target="_blank">xschem</a> for schematic design , and its parameters(plots) are obtained through pre-layout simulations using <a href="https://ngspice.sourceforge.io/" target="_blank">ngspice</a>.
+For the layout design I am utilizing the 
 <a href="http://opencircuitdesign.com/magic/" target="_blank">Magic VLSI Layout Tool</a>, 
 a widely used open-source tool for IC design.
 
@@ -36,12 +31,14 @@ TRUTH TABLE
 <div align="center">
     <img src="images/symbol.png" alt="NOT Gate Symbol" width="">
   
+   created in xschem 
+   
 </div>
 
 <br> <br> 
 
 ## Circuit Diagram 
-
+inverter can be implemented with the help of 1PMOS and 1NMOS connected as shown in circuit diagram and power supply is given as shown +VDD is given to drain of PMOS and GND is given to source of NMOS Input and output are connected as shown 
 <div align="center">
     <img src="images/schematic.png" alt="inverter schematic" width="">
   
@@ -49,7 +46,9 @@ TRUTH TABLE
 
 <br> <br> 
 
+## working
 
+when the given input signal is 0(LOW) the NMOS acts as a open circuit(switch) and PMOS acts as a closed circuit(switch) producing output 1(HIGH). simillerly during input signal is 1(HIGH) the NMOS acts as a closed circuit(switch) and PMOS acts as a open circuit(switch) producing output 0(LOW)
 ## XOR Parameters 
 
 |Parameter | Description |	Min |	Average |	Max |	Unit |	Condition |
